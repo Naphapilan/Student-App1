@@ -1,0 +1,17 @@
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\bin\Debug\net6.0-windows\Student Management App1.exe
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\bin\Debug\net6.0-windows\Student Management App1.deps.json
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\bin\Debug\net6.0-windows\Student Management App1.runtimeconfig.json
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\bin\Debug\net6.0-windows\Student Management App1.dll
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\bin\Debug\net6.0-windows\ref\Student Management App1.dll
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\bin\Debug\net6.0-windows\Student Management App1.pdb
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\obj\Debug\net6.0-windows\Student Management App1.csproj.AssemblyReference.cache
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\obj\Debug\net6.0-windows\Student_Management_App1.Form1.resources
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\obj\Debug\net6.0-windows\Student Management App1.csproj.GenerateResource.cache
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\obj\Debug\net6.0-windows\Student Management App1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\obj\Debug\net6.0-windows\Student Management App1.AssemblyInfoInputs.cache
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\obj\Debug\net6.0-windows\Student Management App1.AssemblyInfo.cs
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\obj\Debug\net6.0-windows\Student Management App1.csproj.CoreCompileInputs.cache
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\obj\Debug\net6.0-windows\Student Management App1.dll
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\obj\Debug\net6.0-windows\ref\Student Management App1.dll
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\obj\Debug\net6.0-windows\Student Management App1.pdb
+C:\Users\TeammyNo1\Desktop\github\Student-Management-App1\Student Management App1\Student Management App1\obj\Debug\net6.0-windows\Student Management App1.genruntimeconfig.cache
