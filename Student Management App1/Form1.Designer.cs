@@ -33,6 +33,10 @@
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ColumnID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnMajor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnGPA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBoxID = new System.Windows.Forms.TextBox();
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -49,10 +53,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.GPA = new System.Windows.Forms.Label();
             this.textBoxGPA = new System.Windows.Forms.TextBox();
-            this.ColumnID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnMajor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnGPA = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -108,6 +108,34 @@
             this.dataGridView1.Size = new System.Drawing.Size(653, 509);
             this.dataGridView1.TabIndex = 2;
             // 
+            // ColumnID
+            // 
+            this.ColumnID.HeaderText = "ID";
+            this.ColumnID.MinimumWidth = 8;
+            this.ColumnID.Name = "ColumnID";
+            this.ColumnID.Width = 150;
+            // 
+            // ColumnName
+            // 
+            this.ColumnName.HeaderText = "Name";
+            this.ColumnName.MinimumWidth = 8;
+            this.ColumnName.Name = "ColumnName";
+            this.ColumnName.Width = 150;
+            // 
+            // ColumnMajor
+            // 
+            this.ColumnMajor.HeaderText = "Major";
+            this.ColumnMajor.MinimumWidth = 8;
+            this.ColumnMajor.Name = "ColumnMajor";
+            this.ColumnMajor.Width = 150;
+            // 
+            // ColumnGPA
+            // 
+            this.ColumnGPA.HeaderText = "GPA";
+            this.ColumnGPA.MinimumWidth = 8;
+            this.ColumnGPA.Name = "ColumnGPA";
+            this.ColumnGPA.Width = 150;
+            // 
             // textBoxID
             // 
             this.textBoxID.Location = new System.Drawing.Point(153, 50);
@@ -146,7 +174,7 @@
             this.buttonSave.Name = "buttonSave";
             this.buttonSave.Size = new System.Drawing.Size(150, 47);
             this.buttonSave.TabIndex = 7;
-            this.buttonSave.Text = "Save";
+            this.buttonSave.Text = "ADD";
             this.buttonSave.UseVisualStyleBackColor = true;
             this.buttonSave.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -249,34 +277,6 @@
             this.textBoxGPA.Name = "textBoxGPA";
             this.textBoxGPA.Size = new System.Drawing.Size(150, 31);
             this.textBoxGPA.TabIndex = 14;
-            // 
-            // ColumnID
-            // 
-            this.ColumnID.HeaderText = "ID";
-            this.ColumnID.MinimumWidth = 8;
-            this.ColumnID.Name = "ColumnID";
-            this.ColumnID.Width = 150;
-            // 
-            // ColumnName
-            // 
-            this.ColumnName.HeaderText = "Name";
-            this.ColumnName.MinimumWidth = 8;
-            this.ColumnName.Name = "ColumnName";
-            this.ColumnName.Width = 150;
-            // 
-            // ColumnMajor
-            // 
-            this.ColumnMajor.HeaderText = "Major";
-            this.ColumnMajor.MinimumWidth = 8;
-            this.ColumnMajor.Name = "ColumnMajor";
-            this.ColumnMajor.Width = 150;
-            // 
-            // ColumnGPA
-            // 
-            this.ColumnGPA.HeaderText = "GPA";
-            this.ColumnGPA.MinimumWidth = 8;
-            this.ColumnGPA.Name = "ColumnGPA";
-            this.ColumnGPA.Width = 150;
             // 
             // Form1
             // 

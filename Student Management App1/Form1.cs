@@ -30,11 +30,7 @@ namespace Student_Management_App1
                     Student student = new Student(studentSplited[0], studentSplited[1], studentSplited[2],studentSplited[3]);
 
                     addDataToGridView("01", "name", "cis","3.5");
-                }
-
-                
-
-
+                }                          
             }
         }
         void addDataToGridView(string id, string name, string major,string gpa)
@@ -83,15 +79,9 @@ namespace Student_Management_App1
                 }
             }
         } 
-        int gpa, min = 4,max = 0,sum = 0,gpax = 0, n = 0;
-        //private int n;
-
+ 
         private void button1_Click(object sender, EventArgs e)
         {
-            string input =this.textBoxGPA.Text;
-            gpa = Convert.ToInt32(textBoxGPA.Text);
-            //gpax = Convert.ToInt32(textBoxGPAx.Text);
-          
             //TODO add data to dataGridView
             int n = dataGridView1.Rows.Add();
             dataGridView1.Rows[n].Cells[0].Value = textBoxID.Text;
@@ -99,39 +89,19 @@ namespace Student_Management_App1
             dataGridView1.Rows[n].Cells[2].Value = comboBoxMajor.Text;
             dataGridView1.Rows[n].Cells[3].Value = textBoxGPA.Text;
             //TODO Calculate GPAx,Max,Min
-            for(n =0;n < dataGridView1.Rows.Count; n++)
-            {
-                sum += Convert.ToInt32(dataGridView1.Rows[n].Cells[3].Value);
-            }
-            int NofROWS = dataGridView1.Rows.Count;
-            double gpax = sum / NofROWS;
+            string input =this.textBoxGPA.Text;
+
+            double dInput = Convert.ToDouble(input);
+            oGPAcal.addGPA(dInput, Name);
+
+            double gpax = oGPAcal.gatGPAx();
             textBoxGPAx.Text = gpax.ToString();
-            /*if(this.gpa != 0)
-            {
-                this.sum += gpa;
-                this.n++;
-                gpax = sum / n ;
-                textBoxGPAx.Text = gpax.ToString();
-            }*/
-            
-            /*double dInput = Convert.ToDouble(input);
-            oGPAcal.addGPA(dInput);
-            textBoxGPAx.Text = dInput.ToString();*/
-         
-            
-            if (this.max < gpa)
-            {
-                this.max = gpa;
-                textBoxMax.Text = gpa.ToString(); 
 
-            }
-            if (this.min > gpa) 
-            {
-                this.min = gpa;
-                textBoxMin.Text = gpa.ToString();
+            double max = oGPAcal.getMax();
+            textBoxMax.Text = max.ToString();
 
-            }
-            
+            double min = oGPAcal.gatMin();
+            textBoxMin.Text = min.ToString();
         }
     }
 }
